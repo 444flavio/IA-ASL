@@ -1,0 +1,30 @@
+<!D<!DOCTYPE html>
+<html lang="it">
+<head><head>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traduttore IA con Lingua dei segni</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Traduttore IA in tempo reale ASL</h1>
+
+    <canvas id="canvas"></canvas>
+
+     <video id="webcam" autoplay playsinline></video>
+    <button id="start">Avvia Riconoscimento</button>
+
+    <p id="result">Aspettando riconoscimento...</p>
+    <button onclick="speakText(document.getElementById('result').innerText)">🔊 Ripeti Audio</button>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+    color: #333;
+    padding: 20px;
+}
+
+/* Titolo */
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Stile del video */
+video {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 15px;
+    border: 3px solid #3498db;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Bottone */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Testo del risultato */
+p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #2c3e50;
+}
